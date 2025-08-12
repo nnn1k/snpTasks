@@ -8,8 +8,6 @@ class Dessert:
         self.name = name
 
     def set_calories(self, calories):
-        if not isinstance(calories, (int, float)) and calories is not None:
-            raise ValueError("Calories must be a number")
         self.calories = calories
 
     def get_name(self):
